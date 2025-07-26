@@ -2,7 +2,7 @@
 
 A modern implementation of the classic Tic-Tac-Toe game built with React and Vite.
 
-![Game Screenshot](public/game-logo.png)
+![Game Screenshot](public/project-thumbnail.png)
 
 ## Features
 
