@@ -12,7 +12,6 @@ export default function Player({ initialName, symbol, isActive, onChangeName }) 
   }
 
   function handleChange(evt) {
-    // console.log(evt);
     setPlayerName(prevPlayerName => evt.target.value)
   }
 
