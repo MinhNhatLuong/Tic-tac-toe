@@ -15,10 +15,10 @@ A modern implementation of the classic Tic-Tac-Toe game built with React and Vit
 
 ## Technologies Used
 
-- React 19
-- Vite 4
-- CSS3 with animations
-- Modern JavaScript (ES6+)
+- React 19 - A powerful JavaScript library for building user interfaces
+- Vite 4 - Next generation frontend build tool with exceptional performance
+- CSS3 with animations - For styling and smooth visual transitions
+- Modern JavaScript (ES6+) - Utilizing the latest JavaScript features for clean code
 
 ## Getting Started
 
@@ -27,31 +27,48 @@ A modern implementation of the classic Tic-Tac-Toe game built with React and Vit
 - Node.js (v14 or higher)
 - npm or yarn
 
-### Installation
+### Installation and Setup
 
-1. Clone the repository
+1. Clone the repository to your local machine
 ```sh
 git clone https://github.com/yourusername/tic-tac-toe.git
+cd tic-tac-toe
 ```
 
-2. Install dependencies
+2. Install all required dependencies using npm or yarn
 ```sh
 npm install
+# or using yarn
+yarn install
 ```
 
-3. Start the development server
+3. Start the local development server
 ```sh
 npm run dev
+# or using yarn
+yarn dev
 ```
 
-4. Open http://localhost:5173 in your browser
+4. Access the game in your browser
+- Open http://localhost:5173
+- The game will automatically reload if you make any changes to the source code
 
-## How to Play
+## Game Instructions
 
-1. Players take turns clicking on empty squares to place their symbol (X or O)
-2. Edit player names by clicking the "Edit" button next to each player
-3. The game automatically detects when a player wins or when there's a draw
-4. Click "Rematch" to start a new game
+1. Gameplay Basics
+   - Two players take turns placing their symbols (X or O) on the board
+   - Click any empty square to place your symbol
+   - First player to get 3 in a row (horizontal, vertical, or diagonal) wins
+
+2. Player Customization
+   - Click the "Edit" button next to each player name to customize it
+   - Names will be saved for the current session
+
+3. Game Features
+   - Automatic win detection
+   - Draw detection when no more moves are possible
+   - Click "Rematch" for a new game without resetting names
+   - Responsive design works on both desktop and mobile devices
 
 ## Project Structure
 
